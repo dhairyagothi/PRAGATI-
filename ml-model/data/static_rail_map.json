@@ -1,0 +1,549 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created_date": "2024-09-16",
+    "division": "Mumbai Division",
+    "description": "Static railway infrastructure data for PRAGATI AI system",
+    "coordinate_system": "WGS84"
+  },
+  "stations": [
+    {
+      "id": "MUM_CENTRAL",
+      "name": "Mumbai Central",
+      "code": "BCT",
+      "lat": 19.0760,
+      "lon": 72.8777,
+      "type": "terminal",
+      "platforms": 12,
+      "electrified": true,
+      "division": "Mumbai",
+      "state": "Maharashtra",
+      "zone": "Western Railway",
+      "elevation_m": 11,
+      "passenger_capacity": 50000,
+      "facilities": ["waiting_room", "parking", "food_court", "atm", "wifi"],
+      "connectivity": {
+        "metro": true,
+        "bus": true,
+        "taxi": true,
+        "auto": true
+      }
+    },
+    {
+      "id": "DADAR",
+      "name": "Dadar",
+      "code": "DR",
+      "lat": 19.0176,
+      "lon": 72.8450,
+      "type": "junction",
+      "platforms": 8,
+      "electrified": true,
+      "division": "Mumbai",
+      "state": "Maharashtra",
+      "zone": "Western Railway",
+      "elevation_m": 15,
+      "passenger_capacity": 35000,
+      "facilities": ["waiting_room", "parking", "food_court", "medical"],
+      "connectivity": {
+        "metro": true,
+        "bus": true,
+        "taxi": true,
+        "auto": true
+      }
+    },
+    {
+      "id": "THANE",
+      "name": "Thane",
+      "code": "TNA",
+      "lat": 19.2183,
+      "lon": 72.9781,
+      "type": "junction",
+      "platforms": 6,
+      "electrified": true,
+      "division": "Mumbai",
+      "state": "Maharashtra",
+      "zone": "Central Railway",
+      "elevation_m": 18,
+      "passenger_capacity": 25000,
+      "facilities": ["waiting_room", "parking", "atm"],
+      "connectivity": {
+        "metro": false,
+        "bus": true,
+        "taxi": true,
+        "auto": true
+      }
+    },
+    {
+      "id": "KALYAN",
+      "name": "Kalyan",
+      "code": "KYN",
+      "lat": 19.2437,
+      "lon": 73.1355,
+      "type": "junction",
+      "platforms": 10,
+      "electrified": true,
+      "division": "Mumbai",
+      "state": "Maharashtra",
+      "zone": "Central Railway",
+      "elevation_m": 22,
+      "passenger_capacity": 40000,
+      "facilities": ["waiting_room", "parking", "food_court", "atm", "medical"],
+      "connectivity": {
+        "metro": false,
+        "bus": true,
+        "taxi": true,
+        "auto": true
+      }
+    },
+    {
+      "id": "LONAVALA",
+      "name": "Lonavala",
+      "code": "LNL",
+      "lat": 18.7484,
+      "lon": 73.4066,
+      "type": "station",
+      "platforms": 4,
+      "electrified": true,
+      "division": "Pune",
+      "state": "Maharashtra",
+      "zone": "Central Railway",
+      "elevation_m": 625,
+      "passenger_capacity": 15000,
+      "facilities": ["waiting_room", "parking", "food_court"],
+      "connectivity": {
+        "metro": false,
+        "bus": true,
+        "taxi": true,
+        "auto": true
+      }
+    },
+    {
+      "id": "KARJAT",
+      "name": "Karjat",
+      "code": "KJT",
+      "lat": 18.9107,
+      "lon": 73.3206,
+      "type": "junction",
+      "platforms": 5,
+      "electrified": true,
+      "division": "Mumbai",
+      "state": "Maharashtra",
+      "zone": "Central Railway",
+      "elevation_m": 75,
+      "passenger_capacity": 20000,
+      "facilities": ["waiting_room", "parking"],
+      "connectivity": {
+        "metro": false,
+        "bus": true,
+        "taxi": true,
+        "auto": true
+      }
+    },
+    {
+      "id": "PUNE",
+      "name": "Pune",
+      "code": "PUNE",
+      "lat": 18.5204,
+      "lon": 73.8567,
+      "type": "terminal",
+      "platforms": 8,
+      "electrified": true,
+      "division": "Pune",
+      "state": "Maharashtra",
+      "zone": "Central Railway",
+      "elevation_m": 560,
+      "passenger_capacity": 45000,
+      "facilities": ["waiting_room", "parking", "food_court", "atm", "wifi", "medical"],
+      "connectivity": {
+        "metro": true,
+        "bus": true,
+        "taxi": true,
+        "auto": true
+      }
+    },
+    {
+      "id": "NASHIK",
+      "name": "Nashik",
+      "code": "NK",
+      "lat": 19.9975,
+      "lon": 73.7898,
+      "type": "terminal",
+      "platforms": 6,
+      "electrified": true,
+      "division": "Bhusaval",
+      "state": "Maharashtra",
+      "zone": "Central Railway",
+      "elevation_m": 565,
+      "passenger_capacity": 30000,
+      "facilities": ["waiting_room", "parking", "food_court", "atm"],
+      "connectivity": {
+        "metro": false,
+        "bus": true,
+        "taxi": true,
+        "auto": true
+      }
+    },
+    {
+      "id": "IGATPURI",
+      "name": "Igatpuri",
+      "code": "IGP",
+      "lat": 19.6961,
+      "lon": 73.5613,
+      "type": "junction",
+      "platforms": 4,
+      "electrified": true,
+      "division": "Bhusaval",
+      "state": "Maharashtra",
+      "zone": "Central Railway",
+      "elevation_m": 595,
+      "passenger_capacity": 12000,
+      "facilities": ["waiting_room", "parking"],
+      "connectivity": {
+        "metro": false,
+        "bus": true,
+        "taxi": true,
+        "auto": true
+      }
+    },
+    {
+      "id": "AURANGABAD",
+      "name": "Aurangabad",
+      "code": "AWB",
+      "lat": 19.8762,
+      "lon": 75.3433,
+      "type": "terminal",
+      "platforms": 5,
+      "electrified": true,
+      "division": "Bhusaval",
+      "state": "Maharashtra",
+      "zone": "Central Railway",
+      "elevation_m": 568,
+      "passenger_capacity": 25000,
+      "facilities": ["waiting_room", "parking", "food_court", "atm"],
+      "connectivity": {
+        "metro": false,
+        "bus": true,
+        "taxi": true,
+        "auto": true
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "MUM_PUNE_MAIN",
+      "name": "Mumbai-Pune Main Line",
+      "stations": ["MUM_CENTRAL", "DADAR", "THANE", "KALYAN", "KARJAT", "LONAVALA", "PUNE"],
+      "distance_km": 192,
+      "electrified": true,
+      "gauge": "broad",
+      "max_speed_kmh": 130,
+      "track_type": "double",
+      "signals": 45,
+      "level_crossings": 8,
+      "bridges": 12,
+      "tunnels": 3,
+      "gradient": {
+        "max_up": 2.5,
+        "max_down": 2.8
+      }
+    },
+    {
+      "id": "MUM_NASH_ROUTE",
+      "name": "Mumbai-Nashik Route",
+      "stations": ["MUM_CENTRAL", "DADAR", "THANE", "KALYAN", "IGATPURI", "NASHIK"],
+      "distance_km": 182,
+      "electrified": true,
+      "gauge": "broad",
+      "max_speed_kmh": 110,
+      "track_type": "single",
+      "signals": 38,
+      "level_crossings": 15,
+      "bridges": 8,
+      "tunnels": 1,
+      "gradient": {
+        "max_up": 3.2,
+        "max_down": 2.9
+      }
+    },
+    {
+      "id": "CENTRAL_LINE",
+      "name": "Mumbai Central Line",
+      "stations": ["MUM_CENTRAL", "DADAR", "THANE", "KALYAN"],
+      "distance_km": 65,
+      "electrified": true,
+      "gauge": "broad",
+      "max_speed_kmh": 100,
+      "track_type": "quadruple",
+      "signals": 28,
+      "level_crossings": 3,
+      "bridges": 5,
+      "tunnels": 0,
+      "gradient": {
+        "max_up": 1.8,
+        "max_down": 1.5
+      }
+    }
+  ],
+  "signals": [
+    {
+      "id": "SIG_001",
+      "location": "MUM_CENTRAL_OUT",
+      "station_id": "MUM_CENTRAL",
+      "type": "automatic",
+      "status": "operational",
+      "lat": 19.0765,
+      "lon": 72.8780,
+      "aspects": 3,
+      "led_type": true,
+      "last_maintenance": "2024-08-15",
+      "next_maintenance": "2024-11-15"
+    },
+    {
+      "id": "SIG_002",
+      "location": "DADAR_JN_A",
+      "station_id": "DADAR",
+      "type": "semi_automatic",
+      "status": "operational",
+      "lat": 19.0180,
+      "lon": 72.8455,
+      "aspects": 4,
+      "led_type": true,
+      "last_maintenance": "2024-07-22",
+      "next_maintenance": "2024-10-22"
+    },
+    {
+      "id": "SIG_003",
+      "location": "THANE_UP",
+      "station_id": "THANE",
+      "type": "automatic",
+      "status": "operational",
+      "lat": 19.2188,
+      "lon": 72.9785,
+      "aspects": 3,
+      "led_type": true,
+      "last_maintenance": "2024-08-03",
+      "next_maintenance": "2024-11-03"
+    },
+    {
+      "id": "SIG_004",
+      "location": "KALYAN_JN_B",
+      "station_id": "KALYAN",
+      "type": "semi_automatic",
+      "status": "operational",
+      "lat": 19.2440,
+      "lon": 73.1360,
+      "aspects": 4,
+      "led_type": true,
+      "last_maintenance": "2024-09-01",
+      "next_maintenance": "2024-12-01"
+    },
+    {
+      "id": "SIG_005",
+      "location": "KARJAT_DN",
+      "station_id": "KARJAT",
+      "type": "automatic",
+      "status": "operational",
+      "lat": 18.9110,
+      "lon": 73.3210,
+      "aspects": 3,
+      "led_type": false,
+      "last_maintenance": "2024-06-18",
+      "next_maintenance": "2024-09-18"
+    }
+  ],
+  "track_circuits": [
+    {
+      "id": "TC_001",
+      "route_id": "MUM_PUNE_MAIN",
+      "start_km": 0,
+      "end_km": 2.5,
+      "status": "clear",
+      "resistance_ohms": 1.2,
+      "voltage_v": 24,
+      "last_check": "2024-09-15"
+    },
+    {
+      "id": "TC_002",
+      "route_id": "MUM_PUNE_MAIN",
+      "start_km": 2.5,
+      "end_km": 5.0,
+      "status": "occupied",
+      "resistance_ohms": 0.8,
+      "voltage_v": 18,
+      "last_check": "2024-09-15"
+    },
+    {
+      "id": "TC_003",
+      "route_id": "MUM_PUNE_MAIN",
+      "start_km": 5.0,
+      "end_km": 7.5,
+      "status": "clear",
+      "resistance_ohms": 1.1,
+      "voltage_v": 23,
+      "last_check": "2024-09-15"
+    }
+  ],
+  "bridges": [
+    {
+      "id": "BR_001",
+      "name": "Ulhas River Bridge",
+      "location_km": 45.2,
+      "route_id": "MUM_PUNE_MAIN",
+      "type": "concrete",
+      "length_m": 285,
+      "height_m": 12,
+      "max_load_tons": 22.5,
+      "last_inspection": "2024-07-10",
+      "next_inspection": "2024-10-10",
+      "condition": "good"
+    },
+    {
+      "id": "BR_002",
+      "name": "Patalganga Creek Bridge",
+      "location_km": 67.8,
+      "route_id": "MUM_PUNE_MAIN",
+      "type": "steel_concrete",
+      "length_m": 145,
+      "height_m": 8,
+      "max_load_tons": 22.5,
+      "last_inspection": "2024-08-22",
+      "next_inspection": "2024-11-22",
+      "condition": "excellent"
+    }
+  ],
+  "tunnels": [
+    {
+      "id": "TUN_001",
+      "name": "Monkey Hill Tunnel",
+      "location_km": 78.5,
+      "route_id": "MUM_PUNE_MAIN",
+      "length_m": 420,
+      "height_m": 6.8,
+      "width_m": 8.2,
+      "ventilation": "natural",
+      "last_inspection": "2024-08-05",
+      "next_inspection": "2024-11-05",
+      "condition": "good"
+    },
+    {
+      "id": "TUN_002",
+      "name": "Khandala Tunnel",
+      "location_km": 89.2,
+      "route_id": "MUM_PUNE_MAIN",
+      "length_m": 680,
+      "height_m": 7.2,
+      "width_m": 8.5,
+      "ventilation": "forced",
+      "last_inspection": "2024-09-02",
+      "next_inspection": "2024-12-02",
+      "condition": "excellent"
+    }
+  ],
+  "level_crossings": [
+    {
+      "id": "LC_001",
+      "location_km": 12.3,
+      "route_id": "MUM_PUNE_MAIN",
+      "type": "manned",
+      "gates": "automatic",
+      "road_classification": "state_highway",
+      "daily_road_traffic": 15000,
+      "safety_equipment": ["flashing_lights", "boom_barriers", "audible_warning"],
+      "last_accident": null,
+      "keeper_contact": "+91-9876543210"
+    },
+    {
+      "id": "LC_002",
+      "location_km": 28.7,
+      "route_id": "MUM_PUNE_MAIN",
+      "type": "manned",
+      "gates": "manual",
+      "road_classification": "district_road",
+      "daily_road_traffic": 8000,
+      "safety_equipment": ["boom_barriers", "audible_warning"],
+      "last_accident": "2023-12-15",
+      "keeper_contact": "+91-9876543211"
+    }
+  ],
+  "maintenance_depots": [
+    {
+      "id": "DEP_001",
+      "name": "Mumbai Central Carriage & Wagon Depot",
+      "location": "MUM_CENTRAL",
+      "lat": 19.0755,
+      "lon": 72.8785,
+      "type": "carriage_wagon",
+      "capacity": 50,
+      "specializations": ["coach_maintenance", "wagon_repair", "painting"],
+      "equipment": ["lifting_jacks", "wheel_lathe", "paint_booth"],
+      "staff_count": 120,
+      "working_hours": "24x7"
+    },
+    {
+      "id": "DEP_002",
+      "name": "Kalyan Locomotive Shed",
+      "location": "KALYAN",
+      "lat": 19.2445,
+      "lon": 73.1365,
+      "type": "locomotive",
+      "capacity": 25,
+      "specializations": ["electric_loco", "diesel_loco", "inspection"],
+      "equipment": ["overhead_crane", "test_bench", "wheel_lathe"],
+      "staff_count": 85,
+      "working_hours": "24x7"
+    }
+  ],
+  "control_centers": [
+    {
+      "id": "CC_001",
+      "name": "Mumbai Division Control Office",
+      "location": "MUM_CENTRAL",
+      "lat": 19.0765,
+      "lon": 72.8775,
+      "jurisdiction": ["MUM_PUNE_MAIN", "CENTRAL_LINE"],
+      "staff_strength": 24,
+      "equipment": ["electronic_interlocking", "train_control_system", "communication_system"],
+      "backup_power": true,
+      "working_hours": "24x7"
+    }
+  ],
+  "emergency_facilities": [
+    {
+      "id": "EMR_001",
+      "name": "Railway Medical Center Mumbai",
+      "location": "MUM_CENTRAL",
+      "lat": 19.0768,
+      "lon": 72.8772,
+      "type": "medical",
+      "facilities": ["emergency_ward", "ambulance", "pharmacy"],
+      "contact": "+91-22-23075555",
+      "staff_count": 15
+    },
+    {
+      "id": "EMR_002",
+      "name": "Railway Fire Station Kalyan",
+      "location": "KALYAN",
+      "lat": 19.2442,
+      "lon": 73.1352,
+      "type": "fire_safety",
+      "facilities": ["fire_engines", "rescue_equipment", "breathing_apparatus"],
+      "contact": "+91-251-2201100",
+      "staff_count": 8
+    }
+  ],
+  "network_statistics": {
+    "total_route_km": 439,
+    "electrified_km": 439,
+    "double_line_km": 257,
+    "quadruple_line_km": 65,
+    "stations_count": 10,
+    "major_junctions": 4,
+    "signals_count": 156,
+    "level_crossings_count": 23,
+    "bridges_count": 35,
+    "tunnels_count": 8,
+    "maintenance_depots_count": 6,
+    "daily_train_services": 450,
+    "annual_passenger_count": 85000000
+  }
+}

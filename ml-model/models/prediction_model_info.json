@@ -1,0 +1,76 @@
+{
+  "model_type": "LSTM Neural Network",
+  "framework": "TensorFlow/Keras",
+  "version": "2.0.0",
+  "input_features": [
+    "current_delay",
+    "scheduled_time",
+    "passenger_count",
+    "weather_conditions",
+    "historical_performance",
+    "route_congestion"
+  ],
+  "output_predictions": [
+    "delay_probability",
+    "conflict_risk",
+    "estimated_delay_minutes",
+    "recommended_action"
+  ],
+  "training_data": {
+    "samples": 500000,
+    "time_period": "2019-2024",
+    "accuracy": 0.92,
+    "precision": 0.89,
+    "recall": 0.94
+  },
+  "model_architecture": {
+    "layers": [
+      {
+        "type": "LSTM",
+        "units": 128,
+        "return_sequences": true
+      },
+      {
+        "type": "Dropout",
+        "rate": 0.2
+      },
+      {
+        "type": "LSTM",
+        "units": 64,
+        "return_sequences": false
+      },
+      {
+        "type": "Dropout",
+        "rate": 0.2
+      },
+      {
+        "type": "Dense",
+        "units": 32,
+        "activation": "relu"
+      },
+      {
+        "type": "Dense",
+        "units": 16,
+        "activation": "relu"
+      },
+      {
+        "type": "Dense",
+        "units": 4,
+        "activation": "softmax"
+      }
+    ],
+    "optimizer": "Adam",
+    "loss": "categorical_crossentropy",
+    "metrics": [
+      "accuracy",
+      "precision",
+      "recall"
+    ]
+  },
+  "deployment_info": {
+    "model_size_mb": 45.2,
+    "inference_time_ms": 15,
+    "memory_requirement_mb": 512,
+    "gpu_required": false
+  }
+}
